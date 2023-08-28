@@ -22,12 +22,12 @@ class UsersTableSeeder extends Seeder
             0 => 
             array (
                 'id' => '1',
-                'name' => 'Isep Lutpi Nur',
-                'email' => 'iseplutpinur7@gmail.com',
-                'foto' => 'iseplutpinur20230420144240.png',
-                'username' => 'iseplutpinur',
+                'name' => 'Gusti Tri Prayoga',
+                'email' => 'gustitriprayoga18@gmail.com',
+                'foto' => 'test.png',
+                'username' => 'Gustitriprayoga',
                 'email_verified_at' => NULL,
-                'password' => '$2y$10$OlqEyVYw3cMTKRbuQLjPaePcKi1nrmiQVt7T7jIVyE7kJIoaf/eUm',
+                'password' => bcrypt('bangkinang123'),
                 'active' => '1',
                 'two_factor_secret' => NULL,
                 'two_factor_recovery_codes' => NULL,
