@@ -263,9 +263,9 @@
     </div>
 
     <hr>
-    <h5 class="page-title">List Fitur Aplikasi</h5>
+    {{-- <h5 class="page-title">List Fitur Aplikasi</h5> --}}
 
-    <div class="row">
+    {{-- <div class="row">
         <div class="col-lg-6">
             <div class="card  m-lg-0">
                 <div class="card-body">
@@ -355,7 +355,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
 @endsection
 
 @section('stylesheet')

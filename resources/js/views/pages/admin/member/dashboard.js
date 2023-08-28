@@ -220,99 +220,99 @@
     </div>
 
     <hr>
-    <h5 class="page-title">List Fitur Aplikasi</h5>
+    // <h5 class="page-title">List Fitur Aplikasi</h5>
 
-    <div class="row">
-        <div class="col-lg-6">
-            <div class="card  m-lg-0">
-                <div class="card-body">
-                    <h6 class="card-title">Aplikasi Sistem Informasi Anggota (Khusus Anggota)</h6>
-                    <hr>
-                    <h6 class="mb-0 mt-4">Profile</h6>
-                    <ul class="list-style5">
-                        <li>Management mendokumentasikan data anggota dan untuk mempermudah komunikasi pengurus
-                            terhadap anggota yang masih
-                            menjabat maupun alumni. [selesai] <a href="{{ route('member.profile') }}">Kunjungi</a>
-                        </li>
-                    </ul>
+    // <div class="row">
+    //     <div class="col-lg-6">
+    //         <div class="card  m-lg-0">
+    //             <div class="card-body">
+    //                 <h6 class="card-title">Aplikasi Sistem Informasi Anggota (Khusus Anggota)</h6>
+    //                 <hr>
+    //                 <h6 class="mb-0 mt-4">Profile</h6>
+    //                 <ul class="list-style5">
+    //                     <li>Management mendokumentasikan data anggota dan untuk mempermudah komunikasi pengurus
+    //                         terhadap anggota yang masih
+    //                         menjabat maupun alumni. [selesai] <a href="{{ route('member.profile') }}">Kunjungi</a>
+    //                     </li>
+    //                 </ul>
 
-                    <h6 class="mb-0 mt-4">Dokumen</h6>
-                    <ul class="list-style5">
-                        <li>Arsip dokumen-dokumen penting dari semua acara/event yang pernah dilaksanakan</li>
-                    </ul>
+    //                 <h6 class="mb-0 mt-4">Dokumen</h6>
+    //                 <ul class="list-style5">
+    //                     <li>Arsip dokumen-dokumen penting dari semua acara/event yang pernah dilaksanakan</li>
+    //                 </ul>
 
-                    <h6 class="mb-0 mt-4">Lapor</h6>
-                    <ul class="list-style5">
-                        <li>Menu untuk melaporkan bug/crash/error untuk evaluasi perbaikan aplikasi kedepannya.
-                        </li>
-                    </ul>
+    //                 <h6 class="mb-0 mt-4">Lapor</h6>
+    //                 <ul class="list-style5">
+    //                     <li>Menu untuk melaporkan bug/crash/error untuk evaluasi perbaikan aplikasi kedepannya.
+    //                     </li>
+    //                 </ul>
 
-                    <h6 class="mb-0 mt-4">Aspirasi</h6>
-                    <ul class="list-style5">
-                        <li>Menu untuk memberikan masukan atau usulan terkait aplikasi. seperti fitur apa yang ingin
-                            ditambahkan.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="col-lg-6">
-            <div class="card m-lg-0">
-                <div class="card-body">
-                    <h6 class="card-title">Publik | Umum (Halaman yang bisa di akses semua orang)</h6>
-                    <hr>
-                    <h6 class="mb-0 mt-4">Home</h6>
-                    <ul class="list-style5">
-                        <li>Ringkasan Periode Kepengurusan Saat Ini. [selesai] <a href="{{ url('') }}">Kunjungi</a>
-                        </li>
-                        <li>Daftar Artikel. [selesai] <a href="{{ url('') }}">Kunjungi</a></li>
-                    </ul>
-
-                    <h6 class="mb-0 mt-4">Tentang Kami</h6>
-                    <ul class="list-style5">
-                        <li>Sejarah</li>
-                        <li>Struktur Kepengurusan (Detail Kepengurusan Saat Ini). [selesai] <a
-                                href="{{ route('tentang.kepengurusan.struktur') }}">Kunjungi</a></li>
-                        <li>Periode Kepengurusan (List Semua Periode Kepengurusan Karmapack)</li>
-                        <li>Anggaran Dasar Anggaran Rumah Tangga</li>
-                    </ul>
-
-                    <h6 class="mb-0 mt-4">Bidang</h6>
-                    <ul class="list-style5">
-                        <li>Semua Profile Bidang. [selesai]</li>
-                    </ul>
+    //                 <h6 class="mb-0 mt-4">Aspirasi</h6>
+    //                 <ul class="list-style5">
+    //                     <li>Menu untuk memberikan masukan atau usulan terkait aplikasi. seperti fitur apa yang ingin
+    //                         ditambahkan.</li>
+    //                 </ul>
+    //             </div>
+    //         </div>
+    //     </div>
 
 
-                    <h6 class="mb-0 mt-4">Anggota</h6>
-                    <ul class="list-style5">
-                        <li>List Semua Anggota Karmapack. [selesai] <a href="{{ route('anggota') }}">Kunjungi</a>
-                        </li>
-                    </ul>
+    //     <div class="col-lg-6">
+    //         <div class="card m-lg-0">
+    //             <div class="card-body">
+    //                 <h6 class="card-title">Publik | Umum (Halaman yang bisa di akses semua orang)</h6>
+    //                 <hr>
+    //                 <h6 class="mb-0 mt-4">Home</h6>
+    //                 <ul class="list-style5">
+    //                     <li>Ringkasan Periode Kepengurusan Saat Ini. [selesai] <a href="{{ url('') }}">Kunjungi</a>
+    //                     </li>
+    //                     <li>Daftar Artikel. [selesai] <a href="{{ url('') }}">Kunjungi</a></li>
+    //                 </ul>
 
-                    <h6 class="mb-0 mt-4">Galeri</h6>
-                    <ul class="list-style5">
-                        <li>List Galeri Kegiatan. [selesai] <a href="{{ route('galeri') }}">Kunjungi</a></li>
-                    </ul>
+    //                 <h6 class="mb-0 mt-4">Tentang Kami</h6>
+    //                 <ul class="list-style5">
+    //                     <li>Sejarah</li>
+    //                     <li>Struktur Kepengurusan (Detail Kepengurusan Saat Ini). [selesai] <a
+    //                             href="{{ route('tentang.kepengurusan.struktur') }}">Kunjungi</a></li>
+    //                     <li>Periode Kepengurusan (List Semua Periode Kepengurusan Karmapack)</li>
+    //                     <li>Anggaran Dasar Anggaran Rumah Tangga</li>
+    //                 </ul>
 
-                    <h6 class="mb-0 mt-4">Pendaftaran (List Semua Pendaftaran)</h6>
-                    <ul class="list-style5">
-                        <li>Sensus Anggota. [selesai] <a href="{{ route('pendaftaran.sensus') }}">Kunjungi</a>
-                        </li>
-                        <li>Poesaka</li>
-                        <li>Dan acara lain lain</li>
-                    </ul>
+    //                 <h6 class="mb-0 mt-4">Bidang</h6>
+    //                 <ul class="list-style5">
+    //                     <li>Semua Profile Bidang. [selesai]</li>
+    //                 </ul>
+
+
+    //                 <h6 class="mb-0 mt-4">Anggota</h6>
+    //                 <ul class="list-style5">
+    //                     <li>List Semua Anggota Karmapack. [selesai] <a href="{{ route('anggota') }}">Kunjungi</a>
+    //                     </li>
+    //                 </ul>
+
+    //                 <h6 class="mb-0 mt-4">Galeri</h6>
+    //                 <ul class="list-style5">
+    //                     <li>List Galeri Kegiatan. [selesai] <a href="{{ route('galeri') }}">Kunjungi</a></li>
+    //                 </ul>
+
+    //                 <h6 class="mb-0 mt-4">Pendaftaran (List Semua Pendaftaran)</h6>
+    //                 <ul class="list-style5">
+    //                     <li>Sensus Anggota. [selesai] <a href="{{ route('pendaftaran.sensus') }}">Kunjungi</a>
+    //                     </li>
+    //                     <li>Poesaka</li>
+    //                     <li>Dan acara lain lain</li>
+    //                 </ul>
 
 
 
-                    <h6 class="mb-0 mt-4">kontak</h6>
-                    <ul class="list-style5">
-                        <li>Halaman Untuk menghubungi admin karmapack lewat website</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
+    //                 <h6 class="mb-0 mt-4">kontak</h6>
+    //                 <ul class="list-style5">
+    //                     <li>Halaman Untuk menghubungi admin karmapack lewat website</li>
+    //                 </ul>
+    //             </div>
+    //         </div>
+    //     </div>
+    // </div>
 @endsection
 
 @section('stylesheet')
